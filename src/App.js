@@ -17,7 +17,7 @@ useEffect( () => {
 
 const fetchTracks = async () => {
 		setLoading(true);
-		const res = await axios.get('trending.json');
+		const res = await axios.get('https://api-stg.jam-community.com/song/trending');
 		setTracks(res.data);
 		setLoading(false);
 	}
