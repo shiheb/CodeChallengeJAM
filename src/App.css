@@ -1,6 +1,6 @@
 body {
     /* The image used */
-    background-image: url(wallpapers.jpg);
+    background-image: url(wallpapeers.jpg);
 
     /* Full height */
     height: 100%; 
@@ -11,8 +11,20 @@ body {
     background-size: cover;
 }
 
-.App {
+.container{
+  border: 4px solid grey;
+  border-radius: 25px;
   text-align: center;
+  
+  background-image: url(componeent.jpg);
+
+    /* Full height */
+  background-blend-mode: lighten;
+  background-clip: padding-box;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .App-logo {
